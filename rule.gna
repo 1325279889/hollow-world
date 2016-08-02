@@ -1,18 +1,18 @@
 [ginarule]
 
-;�Ƿ����ý�����֤
+;是否启用介质认证
 bMediaCheck=1
 
-;���õĽ������ͣ�1Ϊ����Key,4Ϊ������˾��key��3Ϊ��֤�飬Ŀ//ǰ�Ѳ��ã�������
+;启用的介质类型，1为汉邦Key,4为其他公司的key，3为卡证书，目//前已不用，但保留
 dwMediaType=1
 
-;�Ƿ���Ҫ����pin��
+;是否需要输入pin码
 bPinPassword=1  
 
-;�Ƿ���Ҫ�û��Լ������û�������
+;是否需要用户自己输入用户名密码
 bNoSysPassword=1
 
-;�Ƿ�����Ψһ���ʰ�  
+;是否启用唯一介质绑定  
 bOnlyMedia=1
       
 bRecordFailed=1
@@ -21,5 +21,5 @@ cFailedAlertLevel=3
 
 bRecordSuccess=1
 
-;�����ȼ�
-cSuccessAlertLevel=2  
+;报警等级
+cSuccessAlertLevel=2
