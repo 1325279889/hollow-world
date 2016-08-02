@@ -1,0 +1,10 @@
+﻿1、直接解压文件
+2、双击windbg.exe
+3、Ctrl + D 后，选择 蓝屏后产生的类似MEMORY.DMP文件
+4、执行命令：!analyze -v
+lmvm nt
+
+蓝屏
+ntkrpamp.exe  nt!Kei386EoiHelper+17D4
+
+"D:\Program Files\VC6.0\windbg\windbg.exe" -b -k com:port=\\.\pipe\com_1,baud=115200,pipe
